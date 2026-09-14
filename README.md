@@ -106,6 +106,8 @@
 ### 💪 贡献者
 
 - [白雪城-项目负责人](https://github.com/Bai-Xuecheng)(Datawhale 成员，全文写作和校对)
+- [王昱翔-](https://github.com/Wangyx163)(悉尼大学CS硕士)
+
 
 ### 👏 特别感谢
 - 感谢 [@Sm1les](https://github.com/Sm1les) 对本项目的帮助与支持

@@ -1,14 +1,16 @@
 # pip 使用国内镜像源
 
+> pip 默认使用 PyPI 官方源，国内访问有时较慢。可以通过 `-i` 临时指定国内镜像源，或通过 `pip config` 设置默认镜像源，提高 Python 包下载速度。
+
 默认情况下 pip 使用的是国外的镜像，在下载的时候速度非常慢，本节我们介绍使用国内清华大学的源，地址为：
 
-```
+```bash
 https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 我们可以直接在 pip 命令中使用 ```-i``` 参数来指定镜像地址，例如：
 
-```
+```bash
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
 
@@ -18,14 +20,14 @@ pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 
 升级 pip 到最新的版本后进行配置：
 
-```
+```bash
 python -m pip install --upgrade pip
 pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
 ```
 
 如果 pip 默认源的网络连接较差，临时使用清华的镜像站来升级 pip：
 
-```
+```bash
 python -m pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple --upgrade pip
 ```
 
